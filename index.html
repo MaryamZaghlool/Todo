@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF_8" />
+    <meta name="viewport" content="width=device-width,intial-scale=1.0" />
+    <link rel="stylesheet" href="css/test.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@0,500;1,200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="model" id="warning">
+      <div class="model_message">
+        <h1 class="model_head">Warning</h1>
+        <p class="containt">
+          you can't create an empty to do , please enter your to do title
+        </p>
+        <div class="button_container">
+          <button type="button" class="m_button" id="ok">OK</button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="first">
+        <div class="layer">
+          <h1 class="head">create your</h1>
+          <h2>to do</h2>
+          <div class="inp">
+            <input
+              name="toDoList"
+              placeholder="To Do Title"
+              type="text"
+              id="title"
+            />
+            <button type="button" id="add_title">create to do</button>
+          </div>
+        </div>
+      </div>
+      <div class="list">
+        <div class="layer2" id="list">
+        </div>
+      </div>
+    </div>
+    <script src="JS/test.JS"></script>
+  </body>
+</html>
